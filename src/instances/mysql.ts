@@ -14,4 +14,5 @@ export const sequelize = new Sequelize(
         port: parseInt(process.env.MYSQL_PORT as string),
         host: process.env.MYSQL_HOST
     }
+    
 );
